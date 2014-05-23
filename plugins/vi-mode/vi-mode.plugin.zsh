@@ -39,3 +39,5 @@ function vi_mode_prompt_info() {
 if [[ "$RPS1" == "" && "$RPROMPT" == "" ]]; then
   RPS1='$(vi_mode_prompt_info)'
 fi
+
+export KEYTIMEOUT=1
