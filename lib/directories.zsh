@@ -36,6 +36,7 @@ cd () {
   else
     builtin cd "$@"
   fi
+  ls
 }
 
 alias md='mkdir -p'
